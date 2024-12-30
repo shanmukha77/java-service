@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-java-service
+description: A Helm chart for deploying a simple Java service from Azure Container Registry
+version: 0.1.0

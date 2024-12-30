@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: backendservices151.azurecr.io/backend-java/java-service 
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources: {}
